@@ -1,0 +1,71 @@
+.price{
+    display: block;
+    margin-top: 6rem;
+    width: 100%;
+}
+.price h3{
+    text-align: center;
+}
+.price span{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.plan__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0.8rem;
+    height: 70rem;
+    border-radius: 0.6rem;
+    border: 0.1rem solid var(--text-color);
+    position: relative;
+}
+.plan__box.premium{
+    border: 0.2rem solid var(--primary-color);
+}
+.plan__img{
+    width: 14rem;
+    height: 16rem;
+}
+.plan__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.plan-text{
+    font-size: 1.6rem;
+    color: var(--text-heading-color);
+    margin: 4rem 0;
+}
+.plan__infor{
+    margin: 1rem 0;
+}
+.plan__infor ul li{
+    margin: 1rem 0;
+    font-size: 1.4rem;
+}
+.plan__infor ul li i{
+    font-size: 1.8rem;
+    color: var(--icon-color);
+    margin-right: 2rem;
+}
+.plan__infor ul li span{
+    color: var(--text-color);
+    font-size: 1.4rem;
+}
+.plan-price{
+    position: absolute;
+    bottom: 8rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+.plan__box a{
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 1rem 4rem;
+}

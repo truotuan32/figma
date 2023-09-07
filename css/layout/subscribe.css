@@ -1,0 +1,22 @@
+.subscribe{
+    display: block;
+    margin-top: 8rem;
+    height: 23.4rem;
+    width: 114rem;
+    margin: 0 auto;
+    padding: 2rem 10rem;
+}
+.subscribe__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.subscribe__btn{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}

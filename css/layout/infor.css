@@ -1,0 +1,34 @@
+.infor{
+    width: 100%;
+    margin:8rem 0;
+    display: block;
+}
+.infor-item{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.infor-icon{
+    color: var(--primary-color);
+}
+.infor-icon i{
+    font-size: 2.4rem;
+    margin-right: 2rem;
+}
+.infor-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.infor-text strong{
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    user-select: none;
+}
+.infor-text span{
+    font-size: 1.4rem;
+    color: var(--text-color);
+}

@@ -1,0 +1,25 @@
+.brand__heading{
+    color: var(--text-heading-color);
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 0.8rem;
+}
+.brand__heading strong{
+    font-weight: 900;
+}
+.brand__secondary{
+    font-weight: 500;
+    font-size: 35px;
+    color: var(--text-heading-color);
+    line-height: 1.3;
+}
+.text-read{
+    margin: 2rem 0;
+    color: var(--text-color);
+    font-size: 1.4rem;
+    display: block;
+}
+.text-read strong{
+    color: var(--text-heading-color);
+}

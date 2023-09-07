@@ -1,0 +1,46 @@
+.footer{
+    display: block;
+    height: 40rem;
+    margin-top: 8rem;
+}
+.footer__icon{
+    display: flex;
+    align-items: center;
+}
+.footer__icon div{
+    margin-right:1.6rem;
+}
+.footer__icon div img{
+    
+}
+.footer__product,
+.footer__engage,
+.footer__earn{
+    padding-left: 2rem;
+}
+.footer__product h4,
+.footer__engage h4,
+.footer__earn h4{
+    font-size: 1.6rem;
+    color: var(--text-heading-color);
+    margin-bottom: 4rem;
+}
+.footer__product ul li,
+.footer__engage ul li,
+.footer__earn ul li{
+    margin: 1rem 0;
+    padding: 0.8rem 0;
+    transition: 0.25s;
+}
+.footer__product ul li:hover,
+.footer__engage ul li:hover,
+.footer__earn ul li:hover{
+    transform: translateX(0.2rem);
+    text-decoration: underline;
+}
+.footer__product ul li a,
+.footer__engage ul li a,
+.footer__earn ul li a{
+    font-size: 1.4rem;
+    color: var(--text-color);
+}

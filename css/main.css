@@ -1,0 +1,78 @@
+@import './component/animation.css';
+@import './component/button.css';
+@import './component/base.css';
+@import './layout/header.css';
+@import './layout/brand.css';
+@import './layout/infor.css';
+@import './layout/feature.css';
+@import './layout/price.css';
+@import './layout/connect.css';
+@import './layout/testimonials.css';
+@import './layout/subscribe.css';
+@import './layout/footer.css';
+/* @import './base/reponsive.css'; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Rubik';
+    /* scroll smooth */
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    -webkit-scroll-snap-points-x: repeat(300px);
+    -ms-scroll-snap-points-x: repeat(300px);
+    scroll-snap-points-x: repeat(300px);
+    -webkit-scroll-snap-type: mandatory;
+    -ms-scroll-snap-type: mandatory;
+    scroll-snap-type: mandatory;
+}
+body{
+    overflow-x: hidden;
+    padding: 0.8rem 0.2rem;
+}
+#main{
+    overflow: hidden;
+}
+:root{
+    --primary-color: #F53855;
+    --text-heading-color: #0B132A;
+    --text-color: #4F5665;
+    --icon-color: #2FAB73;
+    --white-color: #fff;
+    --header-height: 5rem;
+    --start-color: rgb(253, 253, 0);
+}
+h3{
+    letter-spacing: 1rem;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+a{
+    text-decoration: none;
+}
+.on__top{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 100%;
+    overflow: hidden;
+    position: fixed;
+    bottom: 2rem;
+    right: 1rem;
+    background: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.on__top.hidden{
+    display: none;
+}
+.on__top a i{
+    font-size: 1.4rem;
+    color: var(--white-color);
+}

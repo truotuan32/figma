@@ -1,0 +1,158 @@
+.testimonials {
+  margin-top: 8rem;
+  display: block;
+  width: 100%;
+  height: 60rem;
+  position: relative;
+}
+.testimonials h3 {
+  text-align: center;
+}
+.testimonials span {
+  text-align: center;
+  margin: 2rem 0 6rem 0;
+}
+.wrapper {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  white-space: nowrap;
+  user-select: none;
+  padding: 8rem 4rem;
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+}
+.wrapper div::-webkit-scrollbar {
+  width: 0 !important;
+  display: none;
+}
+.box__testimonials {
+  height: 20rem;
+  width: 30rem;
+  display: inline-block;
+  border-radius: 0.6rem;
+  border: 0.1rem solid rgb(131, 129, 129);
+  padding: 1.8rem;
+  margin: 0 4rem;
+  transition: 0.25s;
+}
+.box__testimonials.active {
+  border: 0.2rem solid var(--primary-color);
+  height: 20rem;
+  width: 32rem;
+  box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.6);
+}
+.box__testimonials-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__user {
+  flex: 4;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 2rem;
+}
+.header__user-img {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.header__user-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.header__user-name {
+  margin-left: 2rem;
+}
+.header__user-name h4 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+.header__user-name p {
+  color: var(--text-color);
+  font-size: 1.2rem;
+}
+.header__start {
+  flex: 1;
+  text-align: center;
+  margin-left: 2rem;
+}
+.start-text {
+  font-size: 1.4rem;
+  color: var(--text-color);
+}
+.start-icon {
+}
+.start-icon i {
+  font-size: 1.4rem;
+  color: var(--start-color);
+  padding-left: 0.8rem;
+}
+.box__testimonials-text {
+  margin-top: 2rem;
+  white-space: normal;
+  font-size: 1.4rem;
+  color: var(--text-heading-color);
+}
+.control-next {
+  position: absolute;
+  right: 0;
+  bottom: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.control-next div {
+  padding: 1.2rem 1.4rem;
+  margin-right: 2rem;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  transition: 0.25s;
+}
+.control-next div.end {
+  background-color: var(--white-color);
+  color: var(--primary-color);
+  border: 0.1rem solid var(--primary-color);
+}
+.control-next div i {
+  height: 100%;
+  width: 100%;
+  display: block;
+  font-size: 2rem;
+}
+.control-dots {
+  position: absolute;
+  bottom: 10%;
+  left: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.control-dots div {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  background-color: var(--text-color);
+  margin: 0 1rem;
+  cursor: pointer;
+  transition: 0.25s;
+}
+.control-dots div.active {
+  width: 4rem;
+  height: 2rem;
+  border-radius: 1rem;
+  background-color: var(--primary-color);
+}

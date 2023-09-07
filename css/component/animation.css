@@ -1,0 +1,10 @@
+.box_show-left{
+	transform: translateX(200%);
+}
+.box_show-right{
+	transform: translateX(-200%);
+}
+.box_show.show{
+	transition: 0.75s;
+	transform: translateX(0);
+}

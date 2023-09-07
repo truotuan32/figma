@@ -1,0 +1,24 @@
+.brand{
+    width: 100%;
+    margin-top: calc(var(--header-height) + 4rem);
+    /* height: 42rem; */
+    display: block;
+}
+.brand__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.brand__text a{
+    margin-left: 1.4rem;
+}
+.brand__img{
+    width: 100%;
+    height: 100%;
+}
+.brand__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
